@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/simple-note-app/static/css/main.66c048e1.css",
+    "main.css": "/simple-note-app/static/css/main.a3e08b33.css",
     "main.js": "/simple-note-app/static/js/main.7db32113.js",
     "static/js/787.28cb0dcd.chunk.js": "/simple-note-app/static/js/787.28cb0dcd.chunk.js",
     "service-worker.js": "/simple-note-app/service-worker.js",
     "index.html": "/simple-note-app/index.html",
-    "main.66c048e1.css.map": "/simple-note-app/static/css/main.66c048e1.css.map",
+    "main.a3e08b33.css.map": "/simple-note-app/static/css/main.a3e08b33.css.map",
     "main.7db32113.js.map": "/simple-note-app/static/js/main.7db32113.js.map",
     "787.28cb0dcd.chunk.js.map": "/simple-note-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66c048e1.css",
+    "static/css/main.a3e08b33.css",
     "static/js/main.7db32113.js"
   ]
 }
