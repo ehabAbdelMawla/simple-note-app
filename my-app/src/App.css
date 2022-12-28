@@ -155,6 +155,7 @@ button.add-button:hover {
   padding-inline-start: 15px;
   max-height: 75px;
   overflow-y: auto;
+  white-space: break-spaces;
 }
 
 
