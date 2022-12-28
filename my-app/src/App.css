@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Scroll Bar Customizaion */
+::-webkit-scrollbar {
+  width: 5px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  min-height: 100vh;
+
+}
+
+
+h1 {
+  padding: 25px;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+/* Add Form */
+.add-item {
+  padding: 10px;
+
+}
+
+.add-item form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-item form input,
+.add-item form textarea {
+  width: 100%;
+  max-width: 500px;
+  min-width: 250px;
+  outline: none;
+
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray
+}
+
+
+.add-item form input:focus,
+.add-item form textarea:focus {
+  outline: 2px solid lightblue;
+}
+
+.add-item form textarea {
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+}
+
+button.add-button {
+  margin-top: 15px;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background: rgb(82, 181, 214);
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+button.add-button:hover {
+  transform: scale(1.1);
+}
+
+
+
+.empty-list-pragraph {
+  margin-top: 25px;
+  padding: 50px;
+  text-align: center;
+  color: gray;
+}
+
+/* Items List */
+.items-list {
+  padding: 10px;
+  margin: 20px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 10px;
+  border: none;
+  min-width: 250px;
+  max-width: 500px;
+  position: relative;
+  height: 150px;
+  width: 100%;
+
+
+}
+
+.item {
+  box-shadow: 5px 5px 10px #12121270;
+  border-radius: 10px;
+  background: rgb(82, 181, 214);
+  padding: 15px;
+  height: 100%;
+  color: #121212;
+  overflow: hidden;
+}
+
+
+
+
+.title {
+  font-weight: bold;
+  padding: 5px 10px;
+  background: #12121270;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.description {
+  margin-top: 20px;
+  text-align: start;
+  padding-inline-end: 15px;
+  padding-inline-start: 15px;
+  max-height: 75px;
+  overflow-y: auto;
+}
+
+
+.image-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+
+}
+
+img {
+  width: 100%;
+}
