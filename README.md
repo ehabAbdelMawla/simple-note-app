@@ -60,7 +60,7 @@ Application To Manage Your Notes And Resorting Them According To There Priority
    ```
 
 ## Supported Platforms
- <kbd> <img src="https://user-images.githubusercontent.com/51888513/188971072-7a0cb030-948d-48cd-9b78-5cc32dd32aba.png" width="18" style="border-radius:5px; margin:5px"/></kbd>  <a href="https://todolist-76565.web.app/"> Web App </a><br/>
+ <kbd> <img src="https://user-images.githubusercontent.com/51888513/188971072-7a0cb030-948d-48cd-9b78-5cc32dd32aba.png" width="18" style="border-radius:5px; margin:5px"/></kbd>  <a href="https://ehababdelmawla.github.io/simple-note-app/"> Web App </a><br/>
  
  
 
